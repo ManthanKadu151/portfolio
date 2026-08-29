@@ -369,7 +369,9 @@
   @media (max-width: 640px){
     body{ font-size:16px; }
     .hero{ padding:60px 20px 46px; }
-    .topmark{ padding:22px 20px 0; }
+    .topmark{ display:block; padding:22px 0 0; }
+    .topmark nav{ display:flex; gap:16px; overflow-x:auto; padding:0 20px 4px; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+    .topmark nav::-webkit-scrollbar{ display:none; }
     section{ padding:44px 20px; }
     .interest-grid{ grid-template-columns:1fr; }
     .contact{ flex-direction:column; align-items:flex-start; }
@@ -396,14 +398,14 @@
     <div class="eyebrow">Hi, I'm</div>
     <h1>Manthan Kadu</h1>
     <div class="role">B.Tech, Computer Science &amp; Engineering — G.H. Raisoni University, Amravati — Class of 2029</div>
-    <p class="tagline">Started with zero lines of code. Git and GitHub are behind me now — currently deep in the process of consuming Python and API knowledge.</p>
-    <div class="terminal">status: consuming knowledge<span class="cursor"></span></div>
+    <p class="tagline">Started with zero lines of code — building outward, one step at a time.</p>
+    <div class="terminal">status: early stages<span class="cursor"></span></div>
   </section>
 
   <section id="about" class="about reveal">
     <div class="eyebrow">About</div>
     <h2>Two years in</h2>
-    <p>I'm a second-year CSE student, currently splitting my time between coursework and a self-directed track in Git, Python, and APIs that I'm building from the ground up. No prior programming background going in — Git and GitHub are behind me now, and Python and APIs are next in line.</p>
+    <p>I'm a second-year CSE student, currently splitting my time between coursework and a self-directed track in Git, Python, and APIs that I'm building from the ground up — no prior programming background going in. Where each stands right now is laid out in the build log below.</p>
     <p>I like treating the learning itself like a project: log what's in progress, ship small things, revise the plan when it stops working.</p>
   </section>
 
